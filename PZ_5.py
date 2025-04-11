@@ -1,5 +1,18 @@
 # Делала Волощук Диана из Ис-25
 # Задание 1
+def print_horizontal_line(symbol, length)
+  print(symbol * length)
+  
+def print_word_in_frame(symbol, word):
+  length = len(word) + 6
+  
+  print_horizontal_line(symbol, length)
+  print(f" {symbol} {word} {symbol}")
+  print_horizontal_line(symbol, length)
+
+word = input(":")
+symbol = input(":")
+print_word_in_frame(symbol, word)
 
 # Задание 2
 def DigitCountSum(K):
