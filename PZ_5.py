@@ -10,8 +10,8 @@ def print_word_in_frame(symbol, word):
   print(f" {symbol} {word} {symbol}")
   print_horizontal_line(symbol, length)
 
-word = input(":")
-symbol = input(":")
+word = input("Введите слово:")
+symbol = input("Введите символ:")
 print_word_in_frame(symbol, word)
 
 # Задание 2
