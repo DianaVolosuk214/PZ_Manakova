@@ -5,7 +5,7 @@
 Создаем функцию Горизонтальная линая, с аргументами символ и длинна. Выводим перемноженные аргументы. Создаем функцию Слово в рамке с аргументами символ и слово.
 В переменную length помещаем слово и длинну +6 вокруг него. -> Вызываем фунуцию Горизонтальная линия. -> Выводим символ, слово, символ. -> И снова Горизонтальную линию. - > Просим ввести слово. -> Просим ввести символ. -> Вызываем функцию слово в рамке. 
 # Объяснение кода
-def print_horizontal_line(symbol, length) - coздает функцию print_horizontal_line. def print_word_in_frame - coздает функцию print_word_in_frame. len - длинна аргумента.  print_horizontal_line(symbol, length) - вызывает функцию. print(f" {symbol} {word} {symbol}") выводит символ, слово, символ. print_horizontal_line(symbol, length) - вызывает функцию. word = input("Введите слово:") просит ввести слово. symbol = input("Введите символ:") - просит ввести символ. print_word_in_frame(symbol, word) - вызывает функцию слово в рамке.
+def print_horizontal_line(symbol, length) - coздает функцию print_horizontal_line, с аргументами в скобках. def print_word_in_frame - coздает функцию print_word_in_frame. len - длинна аргумента.  print_horizontal_line(symbol, length) - вызывает функцию. print(f" {symbol} {word} {symbol}") выводит символ, слово, символ. print_horizontal_line(symbol, length) - вызывает функцию. word = input("Введите слово:") просит ввести слово. symbol = input("Введите символ:") - просит ввести символ. print_word_in_frame(symbol, word) - вызывает функцию слово в рамке.
 # Задание 2
 Описать функцию, которая будет находить сумму цифр целого числа, а также их количество. Ввести пять чисел и сделать для них это.
 # Алгоритм
