@@ -5,10 +5,11 @@ current_weight = 1.2 # Текущий вес
 
 while current_weight <= 2.0: # Условие выполнения
   total_cost = price * current_weight # Стоимость конфет
-  print(f"Стоимость {current_weight} кг конфет: {total_cost:.2f}
+  print(f"Стоимость {current_weight} кг конфет: {total_cost:.2f}")"
   current_weight += 0.2 # Прибавление веса
 
 # Задание 2
+
 n = int(input("Введите число больше 0:")) # Переменная целого числа
 if n <= 0: # Условие, если введенное число меньше или равно 0
   print("Вы ввели неправильное число")
