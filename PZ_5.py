@@ -1,6 +1,6 @@
 # Делала Волощук Диана из Ис-25
 # Задание 1
-def print_horizontal_line(symbol, length)
+def print_horizontal_line(symbol, length):
   print(symbol * length)
   
 def print_word_in_frame(symbol, word):
