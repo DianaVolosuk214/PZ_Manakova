@@ -38,6 +38,6 @@ def enc_sent(sentence, K): # Функция для шифрования пред
       
   return " ".join(encrypted) # Возвращаем зашифрованное предложение
   
-sentence = input(":")
-K = int(input(":"))
+sentence = input()
+K = int(input())
 print(enc_sent(sentence, K))  
