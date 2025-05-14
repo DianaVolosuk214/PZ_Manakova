@@ -10,3 +10,13 @@ def create(sequence):
 input_sequence = [int(input("Введите 5 разных чисел: ")) for x in range(5)]
 result = create(input_sequence)
 print(f"Новая последовательность:" {result}")
+
+# Задание 2
+def uppercase_generator(input_string):
+  for char in input_string:
+    yield char.upper()
+
+input_string = input(":")
+generator = uppercase_generator(input_string)
+
+print(list(generator))
